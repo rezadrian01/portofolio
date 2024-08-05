@@ -7,7 +7,7 @@ export default function Skills() {
       <h3 className="font-semibold text-4xl">Skills</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
         {skills.map((skill, index) => {
-          return <SkillCard title={index} skills={[...skill]} />;
+          return <SkillCard key={index} title={index} skills={[...skill]} />;
         })}
       </div>
     </div>

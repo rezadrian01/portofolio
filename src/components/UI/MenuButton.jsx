@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function MenuButton({ top, isShow, size, ...props }) {
   let sizeButton = {
     w: size || 6,
@@ -8,20 +10,35 @@ export default function MenuButton({ top, isShow, size, ...props }) {
   return (
     <>
       <button
-        {...props}
         className={`cursor-pointer w-${sizeButton.w} h-${sizeButton.h}`}
+        {...props}
       >
-        <div className={parentClass}>
-          <div
-            className={`${childClass} ${isShow ? "top-2 rotate-45" : "top-0"}`}
-          />
-          <div
-            className={`${childClass} ${isShow ? "top-2 rotate-45" : "top-2"}`}
-          />
-          <div
-            className={`${childClass} ${isShow ? "top-2 -rotate-45" : "top-4"}`}
-          />
-        </div>
+        <motion.div className={parentClass}>
+          <motion.div
+            animate={{
+              rotate: isShow ? 45 : 0,
+              transition: { duration: 0.01, type: "spring" },
+              y: isShow ? 8 : 0,
+            }}
+            className={`${childClass} top-0`}
+          ></motion.div>
+          <motion.div
+            animate={{
+              rotate: isShow ? 45 : 0,
+              transition: { duration: 0.01, type: "spring" },
+              y: isShow ? 0 : 0,
+            }}
+            className={`${childClass} top-2`}
+          ></motion.div>
+          <motion.div
+            animate={{
+              rotate: isShow ? -45 : 0,
+              transition: { duration: 0.01, type: "spring" },
+              y: isShow ? -8 : 0,
+            }}
+            className={`${childClass} top-4`}
+          ></motion.div>
+        </motion.div>
       </button>
     </>
   );

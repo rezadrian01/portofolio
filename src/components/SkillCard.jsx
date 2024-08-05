@@ -24,7 +24,10 @@ export default function SkillCard({ skills, title }) {
           {skills.map((skill) => {
             return (
               <li className="flex flex-col items-center" key={skill.id}>
-                <img className="w-20 h-20" src={skill.img} />
+                <img
+                  className="w-20 h-20 hover:scale-110 duration-100 cursor-pointer"
+                  src={skill.img}
+                />
                 <h5 className="text-lg">{skill.title}</h5>
               </li>
             );
