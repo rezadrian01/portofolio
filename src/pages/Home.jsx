@@ -3,7 +3,7 @@ import photo from "../assets/8 crop.jpg";
 export default function HomePage() {
   return (
     <>
-      <div className=" flex flex-col p-8 py-20 lg:pt-44">
+      <div className=" flex flex-col p-8 py-20 lg:pt-44 min-h-screen">
         <div className="flex flex-col items-center lg:flex-row-reverse lg:gap-10 justify-center">
           <div className="">
             <img
