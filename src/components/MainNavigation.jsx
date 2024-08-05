@@ -92,6 +92,7 @@ export default function MainNavigation() {
               <motion.ul
                 variants={{
                   animate: { transition: { staggerChildren: 0.05 } },
+                  exit: { transition: { staggerChildren: 0.05 } },
                 }}
                 className="flex flex-col gap-8 text-center mt-32 text-2xl"
               >
