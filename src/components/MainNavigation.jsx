@@ -35,7 +35,7 @@ export default function MainNavigation() {
           exit: { y: -30, opacity: 0 },
         }}
       >
-        <a href="#">About Me</a>
+        <a href="#about">About Me</a>
       </motion.li>
       <motion.li
         variants={{
@@ -44,7 +44,7 @@ export default function MainNavigation() {
           exit: { y: -30, opacity: 0 },
         }}
       >
-        <a href="#">Skills</a>
+        <a href="#skills">Skills</a>
       </motion.li>
       <motion.li
         variants={{
@@ -67,7 +67,7 @@ export default function MainNavigation() {
     </>
   );
   return (
-    <nav className="bg-black/90 text-slate-300 px-8 py-6 shadow-lg">
+    <nav className="bg-black/40 text-slate-300 px-8 py-6 shadow-lg sticky top-0 backdrop-blur-sm">
       <ul className="flex justify-between text-lg items-center">
         <li>
           <a className="font-semibold">Reza Adrian</a>

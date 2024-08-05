@@ -1,7 +1,10 @@
 export default function About() {
   return (
     <>
-      <div className=" text-stone-400 p-6 w-full md:w-5/6 lg:w-5/6  rounded-lg  mx-auto mt-56 sm:mt-64">
+      <div
+        id="about"
+        className=" text-stone-400 p-6 w-full md:w-5/6 lg:w-5/6  rounded-lg  mx-auto mt-56 sm:mt-64 mb-20"
+      >
         <div className="border-b border-b-stone-400 py-4 mb-8">
           <h3 className="font-bold text-3xl lg:text-4xl">About Me</h3>
         </div>

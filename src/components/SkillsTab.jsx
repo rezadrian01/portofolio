@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-import skills from "../../data/skills";
+import skills from "../data/skills";
 
 export default function SkillTab() {
   const [activeTab, setActiveTab] = useState("Backend");
@@ -16,10 +16,10 @@ export default function SkillTab() {
         .skills.map((currentSkill) => {
           return (
             <li
-              className="flex flex-col items-center text-xl"
+              className="flex flex-col items-center text-xl hover:scale-110 duration-100 cursor-pointer"
               key={currentSkill.id}
             >
-              <img className="w-14 h-14" src={currentSkill.img} />
+              <img className="w-14 h-14 " src={currentSkill.img} />
               <h5>{currentSkill.title}</h5>
             </li>
           );

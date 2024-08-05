@@ -3,7 +3,7 @@ import photo from "../assets/8 crop.jpg";
 export default function HomePage() {
   return (
     <>
-      <div className=" flex flex-col p-8 py-20 lg:pt-44 min-h-screen">
+      <div id="home" className=" flex flex-col p-8 py-20 lg:pt-64 min-h-screen">
         <div className="flex flex-col items-center lg:flex-row-reverse lg:gap-10 justify-center">
           <div className="">
             <img
@@ -15,7 +15,9 @@ export default function HomePage() {
             <h1 className="text-5xl lg:text-7xl font-semibold mb-4">
               Hi, I'm Ahmad Reza Adrian
             </h1>
-            <p className="font-thin text-xl">Backend Developer | Fullstack</p>
+            <p className="font-thin text-xl">
+              Backend Developer | Fullstack Developer
+            </p>
             {/* <p className="text-lg">
               As a Backend Developer, I specialize in crafting the backbone of
               web applications that deliver top-notch performance and

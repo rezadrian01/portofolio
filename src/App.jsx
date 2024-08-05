@@ -16,13 +16,13 @@ import Skills from "./components/Skills";
 export default function App() {
   // return <RouterProvider router={router} />;
   return (
-    <>
+    <div className="bg-zinc-900">
       <MainNavigation />
-      <main className="bg-black/85 min-h-screen flex flex-col pb-96 px-4">
+      <main className="min-h-screen flex flex-col pb-96 px-4">
         <HomePage />
         <About />
         <Skills />
       </main>
-    </>
+    </div>
   );
 }
