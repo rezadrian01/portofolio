@@ -7,7 +7,7 @@ export default function MainNavigation() {
   function toggleNav() {
     setIsShow((prevState) => !prevState);
   }
-  let cssClass = "gap-12 hidden sm:flex";
+  let cssClass = "gap-12 hidden sm:flex lg:mr-16 lg:gap-20";
   //   if (!isShow) {
   //     cssClass += "hidden";
   //   }
@@ -28,7 +28,7 @@ export default function MainNavigation() {
     </>
   );
   return (
-    <nav className="bg-black/85 text-slate-300 px-8 py-6">
+    <nav className="bg-black/90 text-slate-300 px-8 py-6 shadow-lg">
       <ul className="flex justify-between text-lg items-center">
         <li>
           <NavLink className="font-semibold">Reza Adrian</NavLink>
@@ -37,7 +37,7 @@ export default function MainNavigation() {
         <div
           className={`${
             isShow ? "fixed" : "hidden"
-          } inset-0 h-screen bg-black/70`}
+          } inset-0 h-screen bg-black/70 sm:hidden`}
         >
           <div className="flex flex-col gap-8 text-center mt-32 text-2xl">
             {navContent}
