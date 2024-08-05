@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 import MenuButton from "./UI/MenuButton";
 
 export default function MainNavigation() {
@@ -14,16 +13,17 @@ export default function MainNavigation() {
   let navContent = (
     <>
       <li>
-        <NavLink>About Me</NavLink>
+        <a href="#">About Me</a>
       </li>
       <li>
-        <NavLink>My Projects</NavLink>
+        <a href="#">Skills</a>
       </li>
       <li>
-        <NavLink>Skills</NavLink>
+        <a href="#">My Projects</a>
       </li>
+
       <li>
-        <NavLink>Contact</NavLink>
+        <a href="#">Contact</a>
       </li>
     </>
   );
@@ -31,7 +31,7 @@ export default function MainNavigation() {
     <nav className="bg-black/90 text-slate-300 px-8 py-6 shadow-lg">
       <ul className="flex justify-between text-lg items-center">
         <li>
-          <NavLink className="font-semibold">Reza Adrian</NavLink>
+          <a className="font-semibold">Reza Adrian</a>
         </li>
         <div className={cssClass}>{navContent}</div>
         <div

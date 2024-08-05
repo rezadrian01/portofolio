@@ -1,15 +1,28 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import RootLayout from "./pages/Root";
 import HomePage from "./pages/Home";
+import MainNavigation from "./components/MainNavigation";
+import About from "./components/About";
+import Skills from "./components/Skills";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <RootLayout />,
-    children: [{ index: true, element: <HomePage /> }],
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <RootLayout />,
+//     children: [{ index: true, element: <HomePage /> }],
+//   },
+// ]);
 
 export default function App() {
-  return <RouterProvider router={router} />;
+  // return <RouterProvider router={router} />;
+  return (
+    <>
+      <MainNavigation />
+      <main className="bg-black/85 min-h-screen flex flex-col pb-96 px-4">
+        <HomePage />
+        <About />
+        <Skills />
+      </main>
+    </>
+  );
 }
