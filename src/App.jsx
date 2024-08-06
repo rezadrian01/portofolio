@@ -4,6 +4,7 @@ import HomePage from "./pages/Home";
 import MainNavigation from "./components/MainNavigation";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import MenuButton from "./components/UI/MenuButton";
 
 // const router = createBrowserRouter([
 //   {
@@ -18,6 +19,7 @@ export default function App() {
   return (
     <div className="bg-zinc-900">
       <MainNavigation />
+      {/* <MenuButton isShow={true} /> */}
       <main className="min-h-screen flex flex-col pb-96 px-4">
         <HomePage />
         <About />

@@ -22,6 +22,18 @@ export default function MainNavigation() {
     };
   }, [isShow]);
 
+  function handleScroll(event) {
+    if (event.target.tagName && event.target.hash) {
+      event.preventDefault();
+      const targetId = event.target.hash.slice(1);
+      const targetElement = document.getElementById(targetId);
+      const offset = 80;
+      const top =
+        targetElement.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: "smooth" });
+    }
+  }
+
   let cssClass = "gap-12 hidden sm:flex lg:mr-16 lg:gap-20";
   //   if (!isShow) {
   //     cssClass += "hidden";
@@ -35,7 +47,9 @@ export default function MainNavigation() {
           exit: { y: -30, opacity: 0 },
         }}
       >
-        <a href="#about">About Me</a>
+        <a onClick={handleScroll} href="#about">
+          About Me
+        </a>
       </motion.li>
       <motion.li
         variants={{
@@ -44,7 +58,9 @@ export default function MainNavigation() {
           exit: { y: -30, opacity: 0 },
         }}
       >
-        <a href="#skills">Skills</a>
+        <a onClick={handleScroll} href="#skills">
+          Skills
+        </a>
       </motion.li>
       <motion.li
         variants={{
@@ -53,7 +69,9 @@ export default function MainNavigation() {
           exit: { y: -30, opacity: 0 },
         }}
       >
-        <a href="#">My Projects</a>
+        <a onClick={handleScroll} href="#">
+          My Projects
+        </a>
       </motion.li>
       <motion.li
         variants={{
@@ -62,17 +80,19 @@ export default function MainNavigation() {
           exit: { y: -30, opacity: 0 },
         }}
       >
-        <a href="#">Contact</a>
+        <a onClick={handleScroll} href="#">
+          Contact
+        </a>
       </motion.li>
     </>
   );
   return (
-    <nav className="bg-black/40 text-slate-300 px-8 py-6 shadow-lg sticky top-0 backdrop-blur-sm">
+    <nav className="bg-black/40 text-slate-300 px-8 py-6 shadow-lg sticky top-0 backdrop-blur-sm ">
       <ul className="flex justify-between text-lg items-center">
         <li>
           <a className="font-semibold">Reza Adrian</a>
         </li>
-        <div className={cssClass}>{navContent}</div>
+        <ul className={cssClass}>{navContent}</ul>
         <AnimatePresence>
           {isShow && (
             <motion.div
@@ -101,9 +121,15 @@ export default function MainNavigation() {
             </motion.div>
           )}
         </AnimatePresence>
-        <div className={`sm:hidden z-10`}>
-          <MenuButton top="-top-2" onClick={toggleNav} isShow={isShow} />
-        </div>
+        <li className={`block z-[999] `}>
+          <MenuButton
+            top="-top-2"
+            onClick={toggleNav}
+            isShow={isShow}
+            size={6}
+          />
+          {/* <button onClick={toggleNav}>Tes</button> */}
+        </li>
       </ul>
     </nav>
   );
