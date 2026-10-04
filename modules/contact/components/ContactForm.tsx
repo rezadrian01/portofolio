@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import axios from "axios";
 import { useTranslations } from "next-intl";
 
 import SectionHeading from "@/common/components/elements/SectionHeading";
@@ -11,6 +10,7 @@ interface FormData {
   name: string;
   email: string;
   phone?: string;
+  website?: string;
   message: string;
 }
 
@@ -28,7 +28,12 @@ const ContactForm = () => {
   const onSubmit = async (data: FormData) => {
     setStatus("loading");
     try {
-      await axios.post("/api/email", data);
+      const res = await fetch("/api/email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error("Request failed");
       setStatus("success");
       reset();
     } catch {
@@ -49,10 +54,19 @@ const ContactForm = () => {
       </div>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+        {/* Honeypot: hidden from people, filled in by bots */}
+        <input
+          {...register("website")}
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          className="hidden"
+        />
         <div className="grid gap-4 sm:grid-cols-2">
           <div>
             <input
-              {...register("name", { required: true })}
+              {...register("name", { required: true, maxLength: 100 })}
               placeholder={t("input_name")}
               className={inputCls}
             />
@@ -77,14 +91,14 @@ const ContactForm = () => {
         </div>
 
         <input
-          {...register("phone")}
+          {...register("phone", { maxLength: 30 })}
           placeholder={t("input_phone")}
           className={inputCls}
         />
 
         <div>
           <textarea
-            {...register("message", { required: true })}
+            {...register("message", { required: true, maxLength: 3000 })}
             placeholder={t("input_message")}
             rows={5}
             className={`${inputCls} resize-none`}
@@ -97,7 +111,7 @@ const ContactForm = () => {
         <button
           type="submit"
           disabled={status === "loading"}
-          className="w-full rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-80 disabled:opacity-50"
+          className="w-full rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-white transition-opacity dark:text-neutral-950 hover:opacity-80 disabled:opacity-50"
         >
           {status === "loading" ? "Sending…" : t("button")}
         </button>
