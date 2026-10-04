@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import {
   BsEnvelope,
-  BsTelephone,
   BsGeoAlt,
   BsGithub,
   BsLinkedin,
@@ -62,13 +61,6 @@ const ContactInfo = () => {
         >
           <BsEnvelope size={16} className="shrink-0 text-primary" />
           {PERSONAL.email}
-        </a>
-        <a
-          href={`tel:${PERSONAL.phone}`}
-          className="flex items-center gap-3 text-sm text-neutral-600 transition-colors hover:text-primary dark:text-neutral-400"
-        >
-          <BsTelephone size={16} className="shrink-0 text-primary" />
-          {PERSONAL.phone}
         </a>
         <div className="flex items-center gap-3 text-sm text-neutral-600 dark:text-neutral-400">
           <BsGeoAlt size={16} className="shrink-0 text-primary" />
