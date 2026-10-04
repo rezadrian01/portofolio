@@ -13,7 +13,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   return {
     title: `${t("title")} ${METADATA.exTitle}`,
     description: t("description"),
-    keywords: "ahmad reza adrian about, full-stack developer malang, universitas brawijaya",
+    keywords: "ahmad reza adrian about, full-stack developer malang, universitas negeri malang",
     alternates: { canonical: `${process.env.DOMAIN}/${locale}/about` },
     openGraph: {
       title: `${t("title")} ${METADATA.exTitle}`,
