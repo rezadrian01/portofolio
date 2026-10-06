@@ -8,6 +8,6 @@ export const PERSONAL = {
   email: "ahmadadrian324@gmail.com",
   address: "Malang, East Java, Indonesia",
   university: "Universitas Negeri Malang",
-  cvUrl: "/cv/Ahmad_Reza_Adrian_CV.pdf",
+  cvUrl: "/cv/CV_Ahmad_Reza_Adrian.pdf",
   githubUsername: "rezadrian01",
 };
