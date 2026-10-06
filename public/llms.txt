@@ -2,7 +2,7 @@
 
 > Backend engineer with full-stack capabilities, building scalable APIs, cloud-native services, and AI-integrated web platforms.
 
-Ahmad Reza Adrian (Reza) is a Computer Science student at Universitas Negeri Malang (GPA 3.91/4.00, 2023–2027) and a Software Engineer at Intervyou.me. He is based in Malang, East Java, Indonesia.
+Ahmad Reza Adrian (Reza) is a Computer Science student at Universitas Negeri Malang (GPA 3.91/4.00, 2023–2027) and a Software Engineer at CV Solusi Cipta Media. He is based in Malang, East Java, Indonesia.
 
 ## Identity
 
@@ -21,40 +21,45 @@ Ahmad Reza Adrian (Reza) is a Computer Science student at Universitas Negeri Mal
 
 ## Work Experience
 
-**Software Engineer at Intervyou.me · PT Intervyou Labs Indonesia** (May 2025 – present, Full-time, Malang)
-Building and maintaining an AI-powered interview preparation platform backend using NestJS and TypeScript. Designed RESTful APIs, integrated AI services, and contributed to frontend features with Next.js. Collaborated closely with product and design teams to ship user-facing features.
+**Software Engineer at CV Solusi Cipta Media** (Jul 2026 – present, Full-time, Malang)
+Building the Inventory Control module of a web-based ERP for a two-plant automotive component manufacturer, replacing a procurement process previously run on dozens of Excel workbooks. Designed an MRP-style calculation engine that turns approved production plans into per-supplier purchase orders, built a Playwright-based worker that tracks sea and air shipments and updates invoice ETAs, and implemented per-plant data isolation. Stack: Python, FastAPI, PostgreSQL, SQLAlchemy, Playwright, Next.js, TypeScript.
+
+**Software Engineer at Intervyou.me · PT Intervyou Labs Indonesia** (May 2025 – Jul 2026, Full-time, Malang)
+Architected and shipped the backend infrastructure for an AI-powered career development platform serving 8,000+ users. Designed RESTful APIs and database schemas for user sessions, mock interview flows, AI scoring, and CV analysis. Integrated the Google Gemini API and owned deployment, monitoring, and performance optimization. Contributed to the product's acceptance into the NVIDIA Inception and Google for Startups programs. Stack: Next.js, TypeScript, MySQL, Google Gemini API, TailwindCSS.
 
 **Application Security Intern at PT PLN (Persero)** (Mar 2026 – Jun 2026, Internship, Jakarta)
-Performed security assessments and vulnerability testing on internal web applications. Assisted in implementing security controls and documenting findings.
-
-**Full Stack Developer at PT. Transpo Indonesia Mandiri** (Apr 2025 – Sep 2025, Contract, Malang)
-Developed and maintained full-stack web features for logistics and transportation management systems. Built backend services with Node.js integrated with React.js frontends.
+Drove the migration of PLN's internal application security standard from OWASP ASVS v4.0.3 to v5.0.0, reviewing and adapting 400+ requirements. Conducted security verification sessions across 3 to 4 internal applications through collaborative code reviews, and communicated remediation expectations to development teams.
 
 **Teaching Assistant, Information Systems at Universitas Negeri Malang** (Sep 2025 – Dec 2025, Part-time)
-Assisted students in understanding information systems concepts and practical lab exercises.
+Mentored student teams building web applications for real-world clients, reviewed technical deliverables, and set up and managed deployment servers for student applications.
+
+**Full Stack Developer at PT. Transpo Indonesia Mandiri** (Apr 2025 – Sep 2025, Contract, Malang)
+Led end-to-end development of a vehicle rental and tour package booking platform. Engineered a dynamic pricing model with the Google Maps API that calculates travel distance in real time, and built RESTful APIs and relational database schemas for bookings, vehicle inventory, and pricing. Stack: Next.js, TypeScript, Node.js, MySQL, Google Maps API, TailwindCSS.
 
 **Teaching Assistant, Database Systems at Universitas Negeri Malang** (Jan 2025 – May 2025, Part-time)
 Guided students through relational database design, SQL querying, and normalization concepts.
 
-**Core Team Member at GDGoC Universitas Negeri Malang** (Oct 2024 – Jun 2025, Volunteer)
-Organized Google Developer Group events, workshops, and hackathons. Mentored junior members in web and cloud technologies.
+**Core Team, Web Development Division at GDGoC (Google Developer Group on Campus) UM** (Oct 2024 – Jun 2025, Volunteer)
+Developed and delivered technical learning modules covering HTML, CSS, JavaScript, and React. Co-organized Tech Talk, a technical event with 180+ participants.
 
 **Full-Stack Web Development Bootcamp at Dicoding Indonesia** (Jan 2024 – Jun 2024)
 Intensive bootcamp covering front-end and back-end development with JavaScript and Node.js.
 
 ## Skills & Tech Stack
 
-**Primary:** NestJS, Node.js, TypeScript, PostgreSQL, MySQL, Next.js, React.js
-**Also used:** Express.js, Laravel, PHP, MongoDB, Prisma, Google Gemini API, Google Cloud Platform, TailwindCSS, Docker, REST API design
-**Familiar with:** Redis, Go, Kotlin, Firebase, Supabase, Jest
+**Languages:** TypeScript, JavaScript (ES6+), Python, Go, PHP, SQL
+**Back-End:** FastAPI, Node.js, Express.js, NestJS, Gin, Laravel, SQLAlchemy, RESTful API design
+**Front-End:** React.js, Next.js, HTML5, CSS3, TailwindCSS, ShadCN/UI
+**Databases:** PostgreSQL, MySQL, MongoDB, schema design and query optimization
+**Tools:** Git, GitHub, Docker, Playwright, Prisma, Google Maps API, Gemini API, OWASP ASVS
 
 ## Projects
 
-**Intervyou** (Full-Stack): AI-powered interview preparation platform with CV analysis, ATS optimization, and mock interview features. Trusted by 4,800+ users. Tech: Next.js, MySQL, PostgreSQL, Google Gemini API, TypeScript. Live: https://intervyou.me
+**Intervyou** (Full-Stack): AI-powered interview preparation platform with CV analysis, ATS optimization, and mock interview features. Trusted by 8,000+ users. Tech: Next.js, TypeScript, MySQL, Google Gemini API, TailwindCSS. Live: https://intervyou.me
 
-**Transpo** (Full-Stack): Online transportation booking platform for the Malang Raya area connecting passengers with inter-city travel services. Tech: Next.js, TypeScript, MySQL, Google Maps API, Prisma, TailwindCSS. Live: https://transpo.id
+**Transpo** (Full-Stack): Vehicle rental and tour package booking platform for the Malang Raya area, with real-time distance-based pricing powered by the Google Maps API. Tech: Next.js, TypeScript, MySQL, Google Maps API, Prisma, TailwindCSS. Live: https://transpo.id
 
-**Simakin** (Full-Stack): AI-powered Quran memorization platform with a personal AI coach giving real-time feedback on tajweed, makhroj, and fluency with streak tracking. Tech: Remix, Prisma, MySQL, Google Gemini API, Google Cloud Platform, TailwindCSS.
+**Simakin** (Full-Stack): AI-powered Quran memorization platform with a personal AI coach giving real-time feedback on tajweed, makhroj, and fluency with streak tracking. Tech: Remix, Prisma, PostgreSQL, Google Gemini API, TailwindCSS.
 
 **Safera** (Full-Stack): Streaming donation platform for Indonesian content creators with transparent fees, instant bank transfers, QRIS payment, and AI-powered gambling content moderation. Tech: NestJS, Next.js, Google Gemini API, MySQL, TypeScript.
 

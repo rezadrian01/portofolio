@@ -38,6 +38,8 @@ import {
   SiZod,
   SiShadcnui,
   SiAxios,
+  SiPython,
+  SiFastapi,
 } from "react-icons/si";
 import { RiShieldKeyholeFill } from "react-icons/ri";
 
@@ -202,6 +204,18 @@ export const STACKS: SkillProps = {
     background: "bg-rose-600",
     color: "text-rose-600",
     isActive: false,
+  },
+  Python: {
+    icon: <SiPython size={iconSize} />,
+    background: "bg-yellow-500",
+    color: "text-yellow-500",
+    isActive: true,
+  },
+  FastAPI: {
+    icon: <SiFastapi size={iconSize} />,
+    background: "bg-teal-500",
+    color: "text-teal-500",
+    isActive: true,
   },
   Go: {
     icon: <FaGolang size={iconSize} />,
