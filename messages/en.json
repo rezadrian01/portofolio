@@ -9,10 +9,10 @@
     "about_snippet": {
       "label": "About Me",
       "heading": "Who I Am",
-      "paragraph_1": "I'm a Computer Science student at Universitas Negeri Malang and a Software Engineer at Intervyou.me, where I help build an AI interview platform used by 4,800+ people. I focus on backend development with NestJS, Node.js, and PostgreSQL, and build full-stack features when a project needs them.",
+      "paragraph_1": "I'm a Computer Science student at Universitas Negeri Malang and a Software Engineer at CV Solusi Cipta Media, where I'm building the Inventory Control module of an ERP for a two-plant manufacturer. Before that, I built the backend for Intervyou.me, an AI career platform used by 8,000+ people. I focus on backend development with FastAPI, Node.js, and PostgreSQL, and build full-stack features when a project needs them.",
       "paragraph_2": "I enjoy turning complex problems into clean, maintainable solutions, whether that's a scalable REST API, an AI-integrated service, or a polished front-end experience.",
       "read_more": "More about me",
-      "stat_years": "Years Experience",
+      "stat_users": "Users Served",
       "stat_projects": "Projects Built",
       "stat_certificates": "Certificates",
       "stat_companies": "Companies Worked With",
@@ -41,7 +41,7 @@
     "bio": {
       "label": "Introduction",
       "heading": "About Me",
-      "paragraph_1": "I'm Ahmad Reza Adrian, a Computer Science student at Universitas Negeri Malang and a Software Engineer at Intervyou.me, where I build AI-integrated backend services and full-stack features used by real people.",
+      "paragraph_1": "I'm Ahmad Reza Adrian, a Computer Science student at Universitas Negeri Malang and a Software Engineer at CV Solusi Cipta Media, where I'm building the Inventory Control module of a manufacturing ERP. Before that, I built the backend infrastructure for Intervyou.me, an AI career platform used by 8,000+ people.",
       "paragraph_2": "My core strength is backend engineering: designing RESTful APIs, modeling data with PostgreSQL and MongoDB, and integrating AI through the Google Gemini API. When a project calls for it, I also build front-end experiences with Next.js and React.",
       "paragraph_3": "I believe clean, well-structured code and clear system design matter as much as shipping features. Right now I'm focused on deepening my system design and cloud-native skills.",
       "download_cv": "Download CV"
@@ -65,7 +65,7 @@
       "no_data": "No certificates data available."
     },
     "resume": {
-      "paragraph_1": "I'm Ahmad Reza Adrian, a Computer Science student at Universitas Negeri Malang and a Software Engineer at Intervyou.me, where I build AI-integrated backend services and full-stack features used by real people.",
+      "paragraph_1": "I'm Ahmad Reza Adrian, a Computer Science student at Universitas Negeri Malang and a Software Engineer at CV Solusi Cipta Media, where I'm building the Inventory Control module of a manufacturing ERP. Before that, I built the backend infrastructure for Intervyou.me, an AI career platform used by 8,000+ people.",
       "paragraph_2": "My core strength is backend engineering: designing RESTful APIs, modeling data with PostgreSQL and MongoDB, and integrating AI through the Google Gemini API. When a project calls for it, I also build front-end experiences with Next.js and React.",
       "paragraph_3": "I believe clean, well-structured code and clear system design matter as much as shipping features. Right now I'm focused on deepening my system design and cloud-native skills.",
       "paragraph_4": "I'm open to new opportunities where I can contribute to impactful products and continue growing as an engineer."

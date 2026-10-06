@@ -8,9 +8,9 @@ import AnimateCounter from "@/common/components/elements/AnimateCounter";
 import { Link } from "@/i18n/navigation";
 
 const STATS = [
-  { value: 1, suffix: "+", labelKey: "stat_years" },
+  { value: 8, suffix: "K+", labelKey: "stat_users" },
   { value: 10, suffix: "+", labelKey: "stat_projects" },
-  { value: 4, suffix: "+", labelKey: "stat_companies" },
+  { value: 5, suffix: "+", labelKey: "stat_companies" },
   { value: 15, suffix: "+", labelKey: "stat_technologies" },
 ];
 
