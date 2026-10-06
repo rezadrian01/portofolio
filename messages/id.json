@@ -9,10 +9,10 @@
     "about_snippet": {
       "label": "Tentang Saya",
       "heading": "Siapa Saya",
-      "paragraph_1": "Saya mahasiswa Teknik Informatika di Universitas Negeri Malang sekaligus Software Engineer di Intervyou.me, tempat saya ikut membangun platform wawancara berbasis AI yang kini dipakai lebih dari 4.800 orang. Saya paling nyaman bekerja di sisi backend dengan NestJS, Node.js, dan PostgreSQL, dan siap turun ke full-stack saat proyek memerlukannya.",
+      "paragraph_1": "Saya mahasiswa Teknik Informatika di Universitas Negeri Malang sekaligus Software Engineer di CV Solusi Cipta Media, tempat saya membangun modul Inventory Control untuk ERP sebuah perusahaan manufaktur dengan dua pabrik. Sebelumnya, saya membangun backend Intervyou.me, platform karier berbasis AI yang kini dipakai lebih dari 8.000 orang. Saya paling nyaman bekerja di sisi backend dengan FastAPI, Node.js, dan PostgreSQL, dan siap turun ke full-stack saat proyek memerlukannya.",
       "paragraph_2": "Bagi saya, bagian paling menarik adalah mengubah masalah yang rumit menjadi solusi yang rapi dan mudah dirawat, entah itu REST API yang skalabel, layanan berbasis AI, atau tampilan frontend yang nyaman digunakan.",
       "read_more": "Lebih lanjut",
-      "stat_years": "Tahun Pengalaman",
+      "stat_users": "Pengguna Dilayani",
       "stat_projects": "Proyek Dibuat",
       "stat_certificates": "Sertifikat",
       "stat_companies": "Perusahaan",
@@ -41,7 +41,7 @@
     "bio": {
       "label": "Perkenalan",
       "heading": "Tentang Saya",
-      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang sekaligus Software Engineer di Intervyou.me. Di sana saya membangun layanan backend berbasis AI dan fitur full-stack yang benar-benar dipakai pengguna.",
+      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang sekaligus Software Engineer di CV Solusi Cipta Media. Di sana saya membangun modul Inventory Control untuk ERP manufaktur. Sebelumnya, saya membangun infrastruktur backend Intervyou.me, platform karier berbasis AI yang dipakai lebih dari 8.000 orang.",
       "paragraph_2": "Kekuatan terbesar saya ada di backend engineering: merancang RESTful API, menata data di PostgreSQL dan MongoDB, dan mengintegrasikan AI lewat Google Gemini API. Kalau proyek memerlukannya, saya juga menggarap frontend dengan Next.js dan React.",
       "paragraph_3": "Buat saya, kode yang bersih dan rapi serta desain sistem yang jelas sama pentingnya dengan merilis fitur dengan cepat. Belakangan ini saya sedang fokus mendalami desain sistem dan pengembangan cloud-native.",
       "download_cv": "Unduh CV"
@@ -65,7 +65,7 @@
       "no_data": "Belum ada data sertifikat."
     },
     "resume": {
-      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang sekaligus Software Engineer di Intervyou.me. Di sana saya membangun layanan backend berbasis AI dan fitur full-stack yang benar-benar dipakai pengguna.",
+      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang sekaligus Software Engineer di CV Solusi Cipta Media. Di sana saya membangun modul Inventory Control untuk ERP manufaktur. Sebelumnya, saya membangun infrastruktur backend Intervyou.me, platform karier berbasis AI yang dipakai lebih dari 8.000 orang.",
       "paragraph_2": "Kekuatan terbesar saya ada di backend engineering: merancang RESTful API, menata data di PostgreSQL dan MongoDB, dan mengintegrasikan AI lewat Google Gemini API. Kalau proyek memerlukannya, saya juga menggarap frontend dengan Next.js dan React.",
       "paragraph_3": "Buat saya, kode yang bersih dan rapi serta desain sistem yang jelas sama pentingnya dengan merilis fitur dengan cepat. Belakangan ini saya sedang fokus mendalami desain sistem dan pengembangan cloud-native.",
       "paragraph_4": "Saya terbuka untuk peluang baru, tempat saya bisa ikut membangun produk yang berdampak sambil terus berkembang sebagai engineer."

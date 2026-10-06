@@ -13,18 +13,19 @@ export const SKILLS_ROW_1: SkillItem[] = [
   { name: "Tailwind CSS", iconKey: "TailwindCSS" },
   { name: "Node.js", iconKey: "Node.js" },
   { name: "Express.js", iconKey: "Express.js" },
-  { name: "PHP", iconKey: "PHP" },
+  { name: "NestJS", iconKey: "Nest.js" },
 ];
 
 export const SKILLS_ROW_2: SkillItem[] = [
+  { name: "Python", iconKey: "Python" },
+  { name: "FastAPI", iconKey: "FastAPI" },
+  { name: "Go", iconKey: "Go" },
+  { name: "PHP", iconKey: "PHP" },
   { name: "MongoDB", iconKey: "MongoDb" },
   { name: "PostgreSQL", iconKey: "PostgreSql" },
   { name: "MySQL", iconKey: "MySql" },
   { name: "Laravel", iconKey: "Laravel" },
   { name: "Docker", iconKey: "Docker" },
   { name: "GitHub", iconKey: "Github" },
-  { name: "Vite", iconKey: "Vite" },
   { name: "Prisma", iconKey: "Prisma" },
-  { name: "Redux", iconKey: "Redux" },
-  { name: "Go", iconKey: "Go" },
 ];

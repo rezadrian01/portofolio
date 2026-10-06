@@ -20,7 +20,7 @@ const ContactCTASection = () => {
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Link
             href="/contact"
-            className="rounded-lg bg-primary px-6 py-2.5 text-sm font-semibold text-white transition-opacity dark:text-neutral-950 hover:opacity-80"
+            className="rounded-lg bg-primary px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-80"
           >
             {t("cta")}
           </Link>

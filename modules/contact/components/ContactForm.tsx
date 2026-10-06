@@ -111,7 +111,7 @@ const ContactForm = () => {
         <button
           type="submit"
           disabled={status === "loading"}
-          className="w-full rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-white transition-opacity dark:text-neutral-950 hover:opacity-80 disabled:opacity-50"
+          className="w-full rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-80 disabled:opacity-50"
         >
           {status === "loading" ? "Sending…" : t("button")}
         </button>

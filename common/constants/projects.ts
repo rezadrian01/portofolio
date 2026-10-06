@@ -17,9 +17,9 @@ export const PROJECTS: ProjectEntry[] = [
     slug: "intervyou",
     title: "Intervyou",
     description:
-      "AI-powered interview preparation platform with CV analysis, ATS optimization, and mock interview features trusted by 4,800+ users.",
+      "AI-powered interview preparation platform with CV analysis, ATS optimization, and mock interview features trusted by 8,000+ users.",
     category: "Full-Stack",
-    techStack: ["Next.js", "MySQL", "PostgreSQL", "Google Gemini API", "TypeScript"],
+    techStack: ["Next.js", "TypeScript", "MySQL", "Google Gemini API", "TailwindCSS"],
     thumbnail: "/images/projects/intervyou.webp",
     liveUrl: "https://intervyou.me",
     featured: true,
@@ -28,7 +28,7 @@ export const PROJECTS: ProjectEntry[] = [
     slug: "transpo",
     title: "Transpo",
     description:
-      "An online transportation booking platform serving the Malang Raya area, connecting passengers with affordable inter-city travel services across Indonesia.",
+      "A vehicle rental and tour package booking platform serving the Malang Raya area, with real-time distance-based pricing powered by the Google Maps API.",
     category: "Full-Stack",
     techStack: ["Next.js", "TypeScript", "MySQL", "Google Maps API", "Prisma", "TailwindCSS"],
     thumbnail: "/images/projects/transpo.webp",
@@ -41,7 +41,7 @@ export const PROJECTS: ProjectEntry[] = [
     description:
       "AI-powered Quran memorization platform with a personal AI coach that gives real-time feedback on tajweed, makhroj, and fluency with streak tracking.",
     category: "Full-Stack",
-    techStack: ["Remix", "Prisma", "MySQL", "Google Gemini API", "Google Cloud Platform", "TailwindCSS"],
+    techStack: ["Remix", "Prisma", "PostgreSQL", "Google Gemini API", "TailwindCSS"],
     thumbnail: "/images/projects/simakin.webp",
     featured: true,
   },
