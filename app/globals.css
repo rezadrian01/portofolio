@@ -8,8 +8,8 @@
 }
 
 .dark {
-  /* green-500 — readable on dark backgrounds */
-  --color-primary: 34 197 94;
+  /* green-800 — pops nicely on dark backgrounds */
+  --color-primary: 22 101 52;
 }
 
 @layer base {

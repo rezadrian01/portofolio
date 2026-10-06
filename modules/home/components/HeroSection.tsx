@@ -52,7 +52,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/projects"
-              className="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-opacity dark:text-neutral-950 hover:opacity-80"
+              className="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-80"
             >
               {t("cta_projects")}
             </Link>

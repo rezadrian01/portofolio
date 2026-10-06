@@ -124,7 +124,7 @@ const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
                         href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-3 py-1.5 text-sm font-medium text-white transition-opacity dark:text-neutral-950 hover:opacity-90"
+                        className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-3 py-1.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
                       >
                         <BsBoxArrowUpRight size={13} /> {t("live_demo_text")}
                       </a>
