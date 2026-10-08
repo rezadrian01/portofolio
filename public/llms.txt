@@ -9,7 +9,7 @@ Ahmad Reza Adrian (Reza) is a Computer Science student at Universitas Negeri Mal
 - Full name: Ahmad Reza Adrian
 - Preferred name: Reza
 - Location: Malang, East Java, Indonesia
-- Email: ahmadadrian324@gmail.com
+- Email: ahmad@rezadrian.my.id
 - GitHub: https://github.com/rezadrian01
 - Website: https://www.rezadrian.my.id
 - Roles: Backend Engineer · Full-Stack Developer · System Design Enthusiast

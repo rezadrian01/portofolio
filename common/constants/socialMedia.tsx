@@ -16,7 +16,7 @@ export const SOCIAL_MEDIA: SocialMediaProps[] = [
     title: "Stay in Touch",
     description: "Reach out via email for any inquiries or collaborations.",
     name: "gmail",
-    href: "mailto:ahmadadrian324@gmail.com",
+    href: "mailto:ahmad@rezadrian.my.id",
     icon: <SiGmail size={iconSize} />,
     backgroundIcon: <SiGmail size={backgroundIconSize} />,
     textColor: "text-red-300",
